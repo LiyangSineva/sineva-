@@ -7,7 +7,7 @@
 ![Dashgo硬件](https://striker.teambition.net/storage/110y5c6faabb856b971014134418000b386e?download=2017-10-31%2012-28-23%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png&Signature=eyJhbGciOiJIUzI1NiJ9.eyJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMHk1YzZmYWFiYjg1NmI5NzEwMTQxMzQ0MTgwMDBiMzg2ZSIsImV4cCI6MTUwOTU4MDgwMH0.zbOFHYCD2HJV6JMkmsWFIShGpNvTofKh-T7x2BaYhrk)
 要用到的硬件分为独立的4部分,分别是:
 1.  Dashgo机器人,由以下组件组成:
-  1.  升阳激光雷达
+  1.  北阳激光雷达
   1.  upboard控制板
   1.  wifi网卡
   1.  USB数据线
@@ -23,7 +23,7 @@ Dashgo上的Upboard是一台X86控制器,装有Ubuntu,在本设计中,我们在�
 ### 变量设定
 这里设定,Dashgo和台式机都链接到了路由器```192.168.31.1```</br>
 Dashgo的IP地址为```192.168.31.81```</br>
-台式机的IP地址为```192.168.31.81```</br>
+台式机的IP地址为```192.168.31.80```</br>
 这些信息将在下文中用到,如果测试环境与之不同,需要注意进行修改.
 
 ## 运行流程
